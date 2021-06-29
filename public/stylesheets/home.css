@@ -1,82 +1,36 @@
 body {
-	background-color: #000;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1559521783-1d1599583485?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    background-size: cover;
+    background-position: center;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+}
+.cover-container {
+  max-width: 60vw;
 }
 
-#landing-header {
-	z-index: 1;
-	position: relative;
-	text-align: center;
-	padding-top: 40vh;
+.nav-link {
+    padding: 0.25rem 0;
+    font-weight: 700;
+    color: rgba(255,255,255,0.5);
+    margin-left: 1rem;
+    border-bottom: 0.25rem solid transparent;
 }
 
-#landing-header h1 {
-	color: #fff;
+.nav-link:hover{
+    color: rgba(255,255,255,0.5);
+    border-bottom-color:rgba(255,255,255,0.5);
 }
 
-.slideshow {
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	z-index: 0;
-	list-style: none;
-	margin: 0;
-	padding: 0;
+.nav-link.active {
+    color: white;
+    border-bottom-color:white;
+
 }
 
-.slideshow li {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	background-size: cover;
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	opacity: 0;
-	z-index: 0;
-	animation: imageAnimation 50s linear infinite;
-}
-
-.slideshow li:nth-child(1) {
-	background-image: url(../images/1.jpg);
-}
-.slideshow li:nth-child(2) {
-	background-image: url(../images/2.jpg);
-	animation-delay: 10s;
-}
-.slideshow li:nth-child(3) {
-	background-image: url(../images/3.jpg);
-	animation-delay: 20s;
-}
-.slideshow li:nth-child(4) {
-	background-image: url(../images/4.jpg);
-	animation-delay: 30s;
-}
-.slideshow li:nth-child(5) {
-	background-image: url(../images/5.jpg);
-	animation-delay: 40s;
-}
-
-@keyframes imageAnimation {
-	0% {
-		opacity: 0;
-		animation-timing-function: ease-in;
-	}
-	10% {
-		opacity: 1;
-		animation-timing-function: ease-out;
-	}
-	20% {
-		opacity: 1;
-	}
-	30% {
-		opacity: 0;
-	}
-}
-
-/* Older browser support - .no-cssanimations class added by modernizr */
-.no-cssanimations .slideshow li {
-	opacity: 1;
+.btn-secondary, .btn-secondary:hover{
+    color: #333;
+    text-shadow: none;
 }
