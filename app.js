@@ -21,7 +21,7 @@ const reviewRoutes = require('./routes/reviews');
 
 const MongoDBStore = require("connect-mongo")(session);
 
-const dbUrl = process.env.DB_URL || 'mongodb://localhost:27017/camp-world';
+const dbUrl = process.env.DATABASEURL || 'mongodb://localhost:27017/camp-world';
 
 mongoose.connect(dbUrl, {
     useNewUrlParser: true,
