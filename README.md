@@ -14,9 +14,23 @@ Camp world is web application built for people who love camping! The application
 	<img alt="Register" src="https://github.com/V-Abhishek/camp-world/blob/master/images/Register.PNG" />
 2. Users can add campground and upload related pictures
 	<img alt="NewCamp" src="https://github.com/V-Abhishek/camp-world/blob/master/images/NewCamp.PNG" />
-3. Every campground location is geocoded and displayed on map using **Mapbox**
+3. Every campground location is geocoded and displayed on a map using **Mapbox**
 	<img alt="Map" src="https://github.com/V-Abhishek/camp-world/blob/master/images/Map.PNG" />
 4. Users can rate a campground and write reviews
 	<img alt="Review" src="https://github.com/V-Abhishek/camp-world/blob/master/images/Review.PNG" />
 5. Users can always update campground details
 	<img alt="Edit" src="https://github.com/V-Abhishek/camp-world/blob/master/images/Edit.PNG" />
+		
+---
+
+### TECHNOLOGY AND TOOLS
+
+| Category | Framework & Technologies |
+| --- | --- |
+| Programming Languages | JavaScript, Node.js, HTML, CSS |
+| Backend Framework | Express.js |
+| Frontend Framework | Bootstrap 5 |
+| Database | MongoDB |
+| Geocoding | Mapbox |
+| Libraries | Mongoose, Passport, Helmet, Connect Flash, JOI, Multer, Router |
+| Cloud Platforms | Heroku, MongoDB Atlas, Cloudinary |
