@@ -12,7 +12,7 @@ Camp world is web application built for people who love camping! The application
 
 1. The application allows users to register themselves and create an account. Every users credentials is hashed before saving it.
 	<img alt="Register" src="https://github.com/V-Abhishek/camp-world/blob/master/images/Register.PNG" />
-2. Users can add campground and upload related pictures
+2. Users can add campground and upload related pictures. Images are stored on **Cloudinary** 
 	<img alt="NewCamp" src="https://github.com/V-Abhishek/camp-world/blob/master/images/NewCamp.PNG" />
 3. Every campground location is geocoded and displayed on a map using **Mapbox**
 	<img alt="Map" src="https://github.com/V-Abhishek/camp-world/blob/master/images/Map.PNG" />
